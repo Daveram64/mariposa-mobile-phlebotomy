@@ -26,7 +26,7 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
   `athlete-blood-draws/index.html:173`
   > Every package includes the mobile visit, the draw, and travel anywhere in our service area, with no mileage or convenience fees. Specimens a
 - **who provides the lab order for the packages. The live Squarespace page only says "No referral is needed to book"; do not claim the package includes an order until Ellie confirms how it is authorized.**  
-  `athlete-blood-draws/index.html:199`
+  `athlete-blood-draws/index.html:198`
   > No referral is needed to book. Results are delivered securely and are meant to be reviewed with your healthcare or performance professional.
 
 ## Ellie Q3
@@ -59,13 +59,13 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
   `index.html:987`
   > We label and deliver your sample to Quest, LabCorp, or your hospital lab the same day. Bring the order your provider gave you (printed, in M
 - **labs and order formats**  
-  `index.html:1076`
+  `index.html:1075`
   > We deliver to Quest, LabCorp, and hospital labs across our service area. Have your provider's lab order ready: a printed copy, the order in 
 
 ## Ellie Q7
 
 - **Medicare wording**  
-  `index.html:1067`
+  `index.html:1066`
   > Medicare does not reimburse our visit fee. The lab still bills Medicare for the tests themselves as usual.
 - **Medicare wording**  
   `pricing/index.html:166`
@@ -78,7 +78,7 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
   `athlete-blood-draws/index.html:163`
   > 2We draw at your doorA certified phlebotomist arrives before you eat. The draw takes a few minutes and you're back to your morning.
 - **early fasted starts and pediatric Saturday slots**  
-  `index.html:1102`
+  `index.html:1101`
   > For a fasting draw, book our first slot at 8am, or call about an earlier start. For school-age kids, Saturday mornings (8 to 11am) are the e
 - **Saturday and after-school availability**  
   `pediatric-blood-draws/index.html:131`
@@ -147,16 +147,11 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
 - **replace the Maps search URL in sameAs with the real Google Business Profile URL**  
   `index.html:31`
 
-## Dave Q20
+## Dave Q21
 
-- **standard draw price. The live Squarespace /pricing page (updated 2026-07-02) lists the standard draw at $175 and autism-informed draws at a flat $200; this site says $200 and a +$25 add-on. Confirm which is current before launch and fix every price in one pass.**  
-  `athlete-blood-draws/index.html:181`
-  > If your coach, doctor, or a service like InsideTracker gave you an order or a kit, you don't need a package. Book a standard $200 draw and w
-- **standard draw price. The live Squarespace /pricing page (updated 2026-07-02) lists the standard draw at $175, autism-informed draws at a flat $200, fertility/surrogate draws at $150 and care-facility visits at $175; this site says $200 standard and a +$25 autism add-on. Confirm which is current before launch and fix every price in one pass.**  
-  `index.html:1043`
-  > Standard home draw$200
-- **standard draw price. The live Squarespace /pricing page (updated 2026-07-02) lists the standard draw at $175, autism-informed draws at a flat $200, fertility/surrogate draws at $150 and care-facility visits at $175; this site says $200 standard and a +$25 autism add-on. Confirm which is current before launch and fix every price in one pass.**  
+- **the live Squarespace price list also has "Fertility / surrogate draw $150" and "Care facility and assisted living visits $175". Add them here (and to llms.txt and the homepage table) or drop them deliberately before cutover.**  
   `pricing/index.html:133`
+  > Standard home draw$200
 
 ## Cutover steps (no facts needed)
 
