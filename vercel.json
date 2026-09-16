@@ -1,0 +1,69 @@
+{
+  "trailingSlash": true,
+  "cleanUrls": false,
+  "headers": [
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+      ]
+    },
+    {
+      "source": "/(.*)\\.html",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/(.*)/",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" }
+      ]
+    }
+  ],
+  "redirects": [
+    { "source": "/pricing", "destination": "/pricing/", "permanent": true },
+    { "source": "/therapeutic-phlebotomy", "destination": "/therapeutic-phlebotomy/", "permanent": true },
+    { "source": "/galleri-test-blood-draw", "destination": "/galleri-test-blood-draw/", "permanent": true },
+    { "source": "/athlete-performance", "destination": "/athlete-blood-draws/", "permanent": true },
+    { "source": "/athlete-blood-draws", "destination": "/athlete-blood-draws/", "permanent": true },
+    { "source": "/pediatric", "destination": "/pediatric-blood-draws/", "permanent": true },
+    { "source": "/pediatric-blood-draws", "destination": "/pediatric-blood-draws/", "permanent": true },
+    { "source": "/services", "destination": "/#all-services", "permanent": true },
+    { "source": "/faq", "destination": "/#faq", "permanent": true },
+    { "source": "/reviews", "destination": "/#reviews", "permanent": true },
+    { "source": "/contact", "destination": "/#footer", "permanent": true },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.mariposaphlebotomy.com" }],
+      "destination": "https://localphlebotomy.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "mariposaphlebotomy.com" }],
+      "destination": "https://localphlebotomy.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.localphlebotomy.com" }],
+      "destination": "https://localphlebotomy.com/:path*",
+      "permanent": true
+    }
+  ]
+}

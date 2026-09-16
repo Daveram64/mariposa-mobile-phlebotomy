@@ -1,0 +1,377 @@
+[
+  {
+    "id": "files-exist",
+    "ok": true,
+    "detail": "15 files present"
+  },
+  {
+    "id": "no-em-dashes",
+    "ok": true,
+    "detail": "none"
+  },
+  {
+    "id": "V-domain",
+    "ok": true,
+    "detail": "only in redirect files/README"
+  },
+  {
+    "id": "V12a-llms-address",
+    "ok": true,
+    "detail": "street address removed"
+  },
+  {
+    "id": "V5-therapeutic",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V5-$250",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V5-galleri",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V5-$175",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V5-tiers",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V5-cancellation",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V5-medicare",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V5-superbill",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V5-quest",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V5-family",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V5-lila",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V5-clinics",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V5-autism_detail",
+    "ok": true,
+    "detail": "present on homepage"
+  },
+  {
+    "id": "V6b-dup-row",
+    "ok": true,
+    "detail": "duplicate \"In-home draws start at\" row removed"
+  },
+  {
+    "id": "V6a-see-pricing",
+    "ok": true,
+    "detail": "\"See pricing & book\" replaced"
+  },
+  {
+    "id": "item33-phrase",
+    "ok": true,
+    "detail": "\"No hidden fees, ever\" x1"
+  },
+  {
+    "id": "item26-videos",
+    "ok": true,
+    "detail": "aria-hidden videos: 4/4"
+  },
+  {
+    "id": "item25-landmarks",
+    "ok": true,
+    "detail": "main/header/nav present"
+  },
+  {
+    "id": "item24-faq-tabindex",
+    "ok": true,
+    "detail": "tabindex=-1 on #faq"
+  },
+  {
+    "id": "item29-nojs",
+    "ok": true,
+    "detail": "no-js trust beat rule"
+  },
+  {
+    "id": "item22-preload",
+    "ok": true,
+    "detail": "hero preload=metadata"
+  },
+  {
+    "id": "item22-picksrc",
+    "ok": true,
+    "detail": "pickSrc uses CSS px"
+  },
+  {
+    "id": "item5-guard",
+    "ok": true,
+    "detail": "scene 3 reduced-motion early return"
+  },
+  {
+    "id": "item31-dates",
+    "ok": true,
+    "detail": "footer + sitemap dates"
+  },
+  {
+    "id": "item30-meta",
+    "ok": true,
+    "detail": "og:url, twitter:*, canonical slash"
+  },
+  {
+    "id": "item28-contrast",
+    "ok": true,
+    "detail": "footer text contrast 7.60:1"
+  },
+  {
+    "id": "item23-logo",
+    "ok": true,
+    "detail": "logo 44960 bytes, unused sibling gone"
+  },
+  {
+    "id": "jsonld-index.html",
+    "ok": true,
+    "detail": "4 blocks parse"
+  },
+  {
+    "id": "V7-faq-parity-index.html",
+    "ok": true,
+    "detail": "12 questions match"
+  },
+  {
+    "id": "jsonld-pricing/index.html",
+    "ok": true,
+    "detail": "4 blocks parse"
+  },
+  {
+    "id": "V7-faq-parity-pricing/index.html",
+    "ok": true,
+    "detail": "4 questions match"
+  },
+  {
+    "id": "jsonld-therapeutic-phlebotomy/index.html",
+    "ok": true,
+    "detail": "3 blocks parse"
+  },
+  {
+    "id": "V7-faq-parity-therapeutic-phlebotomy/index.html",
+    "ok": true,
+    "detail": "5 questions match"
+  },
+  {
+    "id": "jsonld-galleri-test-blood-draw/index.html",
+    "ok": true,
+    "detail": "3 blocks parse"
+  },
+  {
+    "id": "V7-faq-parity-galleri-test-blood-draw/index.html",
+    "ok": true,
+    "detail": "5 questions match"
+  },
+  {
+    "id": "jsonld-athlete-blood-draws/index.html",
+    "ok": true,
+    "detail": "3 blocks parse"
+  },
+  {
+    "id": "V7-faq-parity-athlete-blood-draws/index.html",
+    "ok": true,
+    "detail": "4 questions match"
+  },
+  {
+    "id": "jsonld-pediatric-blood-draws/index.html",
+    "ok": true,
+    "detail": "3 blocks parse"
+  },
+  {
+    "id": "V7-faq-parity-pediatric-blood-draws/index.html",
+    "ok": true,
+    "detail": "5 questions match"
+  },
+  {
+    "id": "jsonld-privacy/index.html",
+    "ok": true,
+    "detail": "2 blocks parse"
+  },
+  {
+    "id": "jsonld-terms/index.html",
+    "ok": true,
+    "detail": "2 blocks parse"
+  },
+  {
+    "id": "console-errors-home",
+    "ok": true,
+    "detail": "none"
+  },
+  {
+    "id": "assets-200-home",
+    "ok": true,
+    "detail": "all local requests OK"
+  },
+  {
+    "id": "phone-at-0s",
+    "ok": true,
+    "detail": "header tel: link visible before any scroll"
+  },
+  {
+    "id": "V1-reduced-1280",
+    "ok": true,
+    "detail": "{\"beat\":\"1\",\"badge\":\"1\",\"vt\":\"none\",\"pos\":\"relative\"}"
+  },
+  {
+    "id": "V1-beats-stacked-1280",
+    "ok": true,
+    "detail": "{\"a\":[3673,3957],\"b\":[4021,4515],\"overlap\":0}"
+  },
+  {
+    "id": "V1-reduced-390",
+    "ok": true,
+    "detail": "{\"beat\":\"1\",\"badge\":\"1\",\"vt\":\"none\",\"pos\":\"relative\"}"
+  },
+  {
+    "id": "V1-beats-stacked-390",
+    "ok": true,
+    "detail": "{\"a\":[2365,2626],\"b\":[2694,3177],\"overlap\":0}"
+  },
+  {
+    "id": "V3-print-pages",
+    "ok": true,
+    "detail": "10 pages (report: 15, 13 blank)"
+  },
+  {
+    "id": "V3-print-visible",
+    "ok": true,
+    "detail": "#tbeat1:1/visible #tbeat2:1/visible .pricing:1/visible #faq:1/visible #reviews:1/visible .closing__bio:1/visible #all-services:1/visible"
+  },
+  {
+    "id": "V8-tel-density",
+    "ok": true,
+    "detail": "page 17479px, tel visible at 46/46 positions, longest gap 0px (report: 14/45, 5700px)"
+  },
+  {
+    "id": "V9-fab-footer",
+    "ok": true,
+    "detail": "{\"fabVisible\":false,\"footerInView\":true,\"fab\":[798,850]}"
+  },
+  {
+    "id": "V9-fab-pricing-note",
+    "ok": true,
+    "detail": "overlap px^2 with pricing note when note at bottom edge: 4457 (informational; FAB is fixed and content scrolls past it)"
+  },
+  {
+    "id": "V10-skip-focus",
+    "ok": true,
+    "detail": "activeElement after skip link: faq"
+  },
+  {
+    "id": "item27-pause",
+    "ok": true,
+    "detail": "closing video pause button present"
+  },
+  {
+    "id": "page-pricing-1280",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/pricing/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-pricing-390",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/pricing/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-therapeutic-phlebotomy-1280",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/therapeutic-phlebotomy/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-therapeutic-phlebotomy-390",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/therapeutic-phlebotomy/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-galleri-test-blood-draw-1280",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/galleri-test-blood-draw/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-galleri-test-blood-draw-390",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/galleri-test-blood-draw/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-athlete-blood-draws-1280",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/athlete-blood-draws/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-athlete-blood-draws-390",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/athlete-blood-draws/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-pediatric-blood-draws-1280",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/pediatric-blood-draws/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-pediatric-blood-draws-390",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/pediatric-blood-draws/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-privacy-1280",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/privacy/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-privacy-390",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/privacy/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-terms-1280",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/terms/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "page-terms-390",
+    "ok": true,
+    "detail": "{\"errs\":[],\"bad\":[],\"overflow\":false,\"tel\":true,\"h1\":1,\"main\":true,\"canonical\":\"https://localphlebotomy.com/terms/\",\"fabHidden\":true}"
+  },
+  {
+    "id": "internal-links",
+    "ok": true,
+    "detail": "12 distinct internal hrefs resolve"
+  },
+  {
+    "id": "home-anchors",
+    "ok": true,
+    "detail": "all anchor ids present"
+  }
+]
