@@ -264,6 +264,9 @@ img,svg,video{max-width:100%}
 .foot__col h4 + h4,.foot__col p + h4{margin-top:18px}
 .foot__col a,.foot__col p{font-size:14px;line-height:1.6;color:var(--ivory);text-decoration:none;display:block}
 .foot__col a{min-height:44px;display:flex;align-items:center;padding:2px 0}
+/* the contact email is one 34-character word; let it wrap instead of widening the grid at phone widths */
+.foot__col{min-width:0}
+.foot__col a[href^="mailto:"]{display:block;padding:11px 0;overflow-wrap:anywhere}
 .foot__col a:hover{color:var(--brass);text-decoration:underline}
 .foot__legal{max-width:1120px;margin:clamp(36px,5vh,56px) auto 0;padding-top:22px;border-top:1px solid rgba(255,255,255,.16);
   font-size:14px;color:var(--mauve-light);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px 24px;align-items:center}
@@ -275,7 +278,7 @@ img,svg,video{max-width:100%}
   .steps__list,.tiers,.checklist,.faq__grid,.pricing__list{grid-template-columns:1fr}
   .faq__grid{gap:22px}
   .pricing__list{gap:0}
-  .foot__inner{grid-template-columns:1fr 1fr;gap:28px 24px}
+  .foot__inner{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px 24px}
   .foot__brand{grid-column:1 / -1}
   .foot__legal{flex-direction:column;align-items:flex-start}
 }

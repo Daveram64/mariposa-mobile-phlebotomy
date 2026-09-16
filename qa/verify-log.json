@@ -257,7 +257,7 @@
   {
     "id": "V1-beats-stacked-390",
     "ok": true,
-    "detail": "{\"a\":[2365,2626],\"b\":[2694,3177],\"overlap\":0}"
+    "detail": "{\"a\":[2365,2675],\"b\":[2742,3225],\"overlap\":0}"
   },
   {
     "id": "V3-print-pages",
@@ -272,7 +272,7 @@
   {
     "id": "V8-tel-density",
     "ok": true,
-    "detail": "page 17479px, tel visible at 46/46 positions, longest gap 0px (report: 14/45, 5700px)"
+    "detail": "page 17735px, tel visible at 46/46 positions, longest gap 0px (report: 14/45, 5700px)"
   },
   {
     "id": "V9-fab-footer",
@@ -282,7 +282,7 @@
   {
     "id": "V9-fab-pricing-note",
     "ok": true,
-    "detail": "overlap px^2 with pricing note when note at bottom edge: 4457 (informational; FAB is fixed and content scrolls past it)"
+    "detail": "overlap px^2 with pricing note when note at bottom edge: 4734 (informational; FAB is fixed and content scrolls past it)"
   },
   {
     "id": "V10-skip-focus",

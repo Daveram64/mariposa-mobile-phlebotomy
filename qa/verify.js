@@ -14,6 +14,12 @@ function contrast(a, b) { const l1 = lum(a), l2 = lum(b); return (Math.max(l1, l
 
 (async () => {
   const browser = await chromium.launch({ executablePath: EXE, args: ['--ignore-certificate-errors'] });
+  // QA_STUB_FONTS=1: answer fonts.googleapis.com / fonts.gstatic.com with an empty stylesheet so the
+  // suite can run in a sandbox with no internet (otherwise every page logs a blocked-request console error).
+  if (process.env.QA_STUB_FONTS) {
+    const orig = browser.newContext.bind(browser);
+    browser.newContext = async (opts) => { const c = await orig(opts); await c.route(/fonts\.(googleapis|gstatic)\.com/, r => r.fulfill({ status: 200, contentType: 'text/css', body: '' })); return c; };
+  }
   const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8');
   const llms = fs.readFileSync(path.join(ROOT, 'llms.txt'), 'utf8');
 

@@ -8,6 +8,12 @@ let fails = 0;
 function rec(ok, id, detail) { if (!ok) fails++; console.log((ok ? 'PASS ' : 'FAIL ') + id + '  ' + detail); }
 (async () => {
   const browser = await chromium.launch({ executablePath: EXE, args: ['--ignore-certificate-errors'] });
+  // QA_STUB_FONTS=1: answer fonts.googleapis.com / fonts.gstatic.com with an empty stylesheet so the
+  // suite can run in a sandbox with no internet (otherwise every page logs a blocked-request console error).
+  if (process.env.QA_STUB_FONTS) {
+    const orig = browser.newContext.bind(browser);
+    browser.newContext = async (opts) => { const c = await orig(opts); await c.route(/fonts\.(googleapis|gstatic)\.com/, r => r.fulfill({ status: 200, contentType: 'text/css', body: '' })); return c; };
+  }
   for (const [name, vp] of Object.entries(vps)) {
     for (const url of pages) {
       const ctx = await browser.newContext({ viewport: vp, deviceScaleFactor: 3, isMobile: true, hasTouch: true });

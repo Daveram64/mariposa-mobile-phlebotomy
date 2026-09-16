@@ -31,7 +31,7 @@ Both files encode the same two things:
 1. Old Squarespace paths (`/pricing`, `/therapeutic-phlebotomy`, `/services`, `/faq`, and so on) redirecting 301 to the matching page or section on this site.
 2. The old Squarespace domain (`mariposaphlebotomy.com` and `www.mariposaphlebotomy.com`), plus `www.localphlebotomy.com`, redirecting 301 to the apex `https://localphlebotomy.com`.
 
-The athlete and pediatric slugs in that old-path map are a best guess. Before DNS cuts over, pull the real paths from the current Squarespace sitemap and update both `_redirects` and `vercel.json` if they differ.
+The old-path map was built from the live Squarespace sitemap on 2026-09-16 (20 URLs, including `/monarch-endur`, `/autism-friendly`, the three older athlete tier pages, `/privacy-policy`, `/terms-and-conditions`, `/llms`, `/blog` and `/store`). If a page is added on Squarespace before cutover, add it to both `_redirects` and `vercel.json`.
 
 ## Hosting headers
 

@@ -1,15 +1,32 @@
-# CONFIRM(Dave Q18): the athlete and pediatric slugs on Squarespace are guesses; copy the real ones from the Squarespace sitemap before cutover.
-/pricing                   /pricing/                    301
-/therapeutic-phlebotomy    /therapeutic-phlebotomy/     301
-/galleri-test-blood-draw   /galleri-test-blood-draw/    301
-/athlete-performance       /athlete-blood-draws/        301
-/athlete-blood-draws       /athlete-blood-draws/        301
-/pediatric                 /pediatric-blood-draws/      301
-/pediatric-blood-draws     /pediatric-blood-draws/      301
-/services                  /#all-services                301
-/faq                       /#faq                         301
-/reviews                   /#reviews                     301
-/contact                   /#footer                      301
+# Old Squarespace paths -> new pages. Sources copied from https://www.mariposaphlebotomy.com/sitemap.xml on 2026-09-16 (20 URLs).
+# Squarespace page              New destination              Code
+/home                          /                            301
+/homesacramento                /                            301
+/about                         /#closing                    301
+/services                      /#all-services               301
+/services-1                    /athlete-blood-draws/        301
+/nutrition                     /athlete-blood-draws/        301
+/elite-performance-blood-testing /athlete-blood-draws/      301
+/monarch-endur                 /athlete-blood-draws/        301
+/autism-friendly               /pediatric-blood-draws/      301
+/pricing                       /pricing/                    301
+/therapeutic-phlebotomy        /therapeutic-phlebotomy/     301
+/galleri-test-blood-draw       /galleri-test-blood-draw/    301
+/privacy-policy                /privacy/                    301
+/terms-and-conditions          /terms/                      301
+/llms                          /llms.txt                    301
+/blog/what-is-mobile-phlebotomy-a-complete-guide-for-bay-area-patients /#how-it-works 301
+/blog                          /#faq                        301
+/blog/*                        /#faq                        301
+/store                         /pricing/                    301
+/store/*                       /pricing/                    301
+
+# New-site paths without a trailing slash, plus a few safe fallbacks
+/athlete-blood-draws           /athlete-blood-draws/        301
+/pediatric-blood-draws         /pediatric-blood-draws/      301
+/faq                           /#faq                        301
+/reviews                       /#reviews                    301
+/contact                       /#footer                     301
 
 # Host redirects: send the old Squarespace domain, and any www host, to the apex
 https://www.mariposaphlebotomy.com/*   https://localphlebotomy.com/:splat   301!

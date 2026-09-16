@@ -22,12 +22,12 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
 - **follow-up call**  
   `athlete-blood-draws/index.html:151`
   > A follow-up call to walk through what changed since last time
-- **panel included**  
+- **whether the lab panel fee is included in the package price or billed separately by Quest. The live /pricing FAQ says "Lab processing fees, if any, are billed separately by the laboratory", so this page must not promise the panel is included until Ellie confirms.**  
   `athlete-blood-draws/index.html:173`
-  > Yes. The package price covers the visit, the draw, and the lab fees for the panel. You don't pay the lab separately and there are no add-on 
-- **who provides the order for the packages**  
-  `athlete-blood-draws/index.html:198`
-  > No. The packages include the lab order.
+  > Every package includes the mobile visit, the draw, and travel anywhere in our service area, with no mileage or convenience fees. Specimens a
+- **who provides the lab order for the packages. The live Squarespace page only says "No referral is needed to book"; do not claim the package includes an order until Ellie confirms how it is authorized.**  
+  `athlete-blood-draws/index.html:199`
+  > No referral is needed to book. Results are delivered securely and are meant to be reviewed with your healthcare or performance professional.
 
 ## Ellie Q3
 
@@ -41,7 +41,7 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
   `galleri-test-blood-draw/index.html:154`
   > Yes. We bring what the kit needs. Galleri itself ships at room temperature; kits that need a centrifuge spin and cold pack get exactly that.
 - **price for non-Galleri kits**  
-  `pricing/index.html:140`
+  `pricing/index.html:141`
   > Other mail-in kits InsideTracker, Function Health, Genova, Boston Heart and similar. Kit handling included.$200
 
 ## Ellie Q4
@@ -59,18 +59,18 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
   `index.html:987`
   > We label and deliver your sample to Quest, LabCorp, or your hospital lab the same day. Bring the order your provider gave you (printed, in M
 - **labs and order formats**  
-  `index.html:1075`
+  `index.html:1076`
   > We deliver to Quest, LabCorp, and hospital labs across our service area. Have your provider's lab order ready: a printed copy, the order in 
 
 ## Ellie Q7
 
 - **Medicare wording**  
-  `index.html:1066`
+  `index.html:1067`
   > Medicare does not reimburse our visit fee. The lab still bills Medicare for the tests themselves as usual.
 - **Medicare wording**  
-  `pricing/index.html:165`
+  `pricing/index.html:166`
 - **Medicare wording**  
-  `pricing/index.html:205`
+  `pricing/index.html:206`
 
 ## Ellie Q8
 
@@ -78,7 +78,7 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
   `athlete-blood-draws/index.html:163`
   > 2We draw at your doorA certified phlebotomist arrives before you eat. The draw takes a few minutes and you're back to your morning.
 - **early fasted starts and pediatric Saturday slots**  
-  `index.html:1101`
+  `index.html:1102`
   > For a fasting draw, book our first slot at 8am, or call about an earlier start. For school-age kids, Saturday mornings (8 to 11am) are the e
 - **Saturday and after-school availability**  
   `pediatric-blood-draws/index.html:131`
@@ -92,8 +92,8 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
 
 ## Ellie Q10
 
-- **clinics email address and one-business-day reply**  
-  `pricing/index.html:180`
+- **one-business-day reply for group pricing requests (email address confirmed from the live site)**  
+  `pricing/index.html:181`
   > Practices, concierge medicine, home-health agencies, and assisted-living communities: we run standing orders and scheduled rounds, and we ca
 
 ## Ellie Q11
@@ -107,13 +107,13 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
   `pricing/index.html:119`
   > One flat price per draw. It covers the visit anywhere in our service area, the draw, labeling, and delivery to your lab or the carrier. No t
 - **no travel fee inside the service area**  
-  `pricing/index.html:194`
+  `pricing/index.html:195`
   > No travel fee anywhere in our service area: Sonoma, Marin, Napa, Solano, Sacramento, and the greater Bay Area. Outside that area, call us an
 
 ## Ellie Q13
 
 - **payment timing and method**  
-  `pricing/index.html:199`
+  `pricing/index.html:200`
   > You pay on our scheduling page when you book, by card. You receive a receipt and, after the visit, a superbill.
 - **payment timing and method**  
   `terms/index.html:87`
@@ -142,16 +142,21 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
   `privacy/index.html:100`
   > We keep medical records for as long as California law requires, currently seven years. Records tied to a minor patient may be kept longer, u
 
-## Dave Q18
-
-- **the athlete and pediatric slugs on Squarespace are guesses; copy the real ones from the Squarespace sitemap before cutover.**  
-  `_redirects:1`
-  > /pricing                   /pricing/                    301
-
 ## Ellie Q19
 
 - **replace the Maps search URL in sameAs with the real Google Business Profile URL**  
   `index.html:31`
+
+## Dave Q20
+
+- **standard draw price. The live Squarespace /pricing page (updated 2026-07-02) lists the standard draw at $175 and autism-informed draws at a flat $200; this site says $200 and a +$25 add-on. Confirm which is current before launch and fix every price in one pass.**  
+  `athlete-blood-draws/index.html:181`
+  > If your coach, doctor, or a service like InsideTracker gave you an order or a kit, you don't need a package. Book a standard $200 draw and w
+- **standard draw price. The live Squarespace /pricing page (updated 2026-07-02) lists the standard draw at $175, autism-informed draws at a flat $200, fertility/surrogate draws at $150 and care-facility visits at $175; this site says $200 standard and a +$25 autism add-on. Confirm which is current before launch and fix every price in one pass.**  
+  `index.html:1043`
+  > Standard home draw$200
+- **standard draw price. The live Squarespace /pricing page (updated 2026-07-02) lists the standard draw at $175, autism-informed draws at a flat $200, fertility/surrogate draws at $150 and care-facility visits at $175; this site says $200 standard and a +$25 autism add-on. Confirm which is current before launch and fix every price in one pass.**  
+  `pricing/index.html:133`
 
 ## Cutover steps (no facts needed)
 
