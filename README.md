@@ -48,6 +48,10 @@ This is a fresh launch on a new domain, `localphlebotomy.com`, replacing the old
 5. Expect the site's current geo and directory citations (Yelp, Nextdoor, and similar) to reset or lag while they pick up the new domain. Update them as time allows; this is not a blocker for launch.
 6. Before DNS actually moves, confirm every fact marked `CONFIRM(Ellie Q...)` in the page HTML with Ellie. See `LAUNCH-CHECKLIST.md` for the full list of what still needs her sign-off.
 
+## Foldables and high-density screens
+
+The layout is fluid with one breakpoint at 760px, plus a 600px to 760px range that keeps the section links in the header (iPhone Duo unfolded is 626px wide; folded is 466px). Every raster asset is exported for 3x displays: the logo ships a 2x `srcset`, the founder photo is 480px for an 88px slot, and the video posters are 1280px or wider. `qa/duo.js` checks both Duo viewports and the fold transition.
+
 ## Local preview
 
 Any static file server works, for example:

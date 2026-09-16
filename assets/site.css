@@ -108,6 +108,12 @@ img,svg,video{max-width:100%}
   .site-nav__call-short{display:inline}
 }
 @media (max-width:340px){.site-nav__book{display:none}}
+/* foldables and small tablets (iPhone Duo unfolded is 626px): room for the section links, short Call label */
+@media (min-width:600px) and (max-width:760px){
+  .site-nav__links{display:flex;gap:2px;margin-left:auto}
+  .site-nav__links a{padding:0 8px;font-size:14px}
+  .site-nav__actions{margin-left:0}
+}
 
 /* ---------- persistent Book button (fades in past the hero; hidden once the footer is in view) ---------- */
 .book-fab{position:fixed;right:clamp(16px,3vw,28px);bottom:clamp(16px,3vw,28px);z-index:110;

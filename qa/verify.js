@@ -22,7 +22,7 @@ function contrast(a, b) { const l1 = lum(a), l2 = lum(b); return (Math.max(l1, l
     'pricing/index.html', 'therapeutic-phlebotomy/index.html', 'galleri-test-blood-draw/index.html', 'athlete-blood-draws/index.html', 'pediatric-blood-draws/index.html', 'privacy/index.html', 'terms/index.html'];
   const missing = files.filter(f => !fs.existsSync(path.join(ROOT, f)));
   rec('files-exist', missing.length === 0, missing.length ? 'missing: ' + missing.join(', ') : files.length + ' files present');
-  const emd = files.filter(f => fs.existsSync(path.join(ROOT, f)) && fs.readFileSync(path.join(ROOT, f), 'utf8').includes('—'));
+  const emd = files.filter(f => fs.existsSync(path.join(ROOT, f)) && fs.readFileSync(path.join(ROOT, f), 'utf8').includes('\u2014'));
   rec('no-em-dashes', emd.length === 0, emd.length ? 'em-dash in: ' + emd.join(', ') : 'none');
   const oldDomain = files.filter(f => fs.existsSync(path.join(ROOT, f)) && /mariposaphlebotomy\.com/.test(fs.readFileSync(path.join(ROOT, f), 'utf8')) && !/_redirects|vercel\.json|README/.test(f));
   rec('V-domain', oldDomain.length === 0, oldDomain.length ? 'old domain still in: ' + oldDomain.join(', ') : 'only in redirect files/README');
