@@ -53,16 +53,6 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
   `pediatric-blood-draws/index.html:158`
   > We don't prescribe it, but if your pediatrician does, apply it as directed before we arrive and we'll time the draw to it.
 
-## Ellie Q5
-
-- **cancellation and no-draw fees (DRAFT numbers)**  
-  `index.html:1092`
-  > Reschedule or cancel free of charge up to 24 hours before your appointment. Inside 24 hours, or if we arrive and the draw can't go ahead, a 
-- **cancellation and no-draw fees (DRAFT numbers)**  
-  `pricing/index.html:173`
-- **cancellation and no-draw fees (DRAFT numbers)**  
-  `terms/index.html:91`
-
 ## Ellie Q6
 
 - **labs delivered to and order formats accepted**  
@@ -80,7 +70,7 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
 - **Medicare wording**  
   `pricing/index.html:165`
 - **Medicare wording**  
-  `pricing/index.html:206`
+  `pricing/index.html:205`
 
 ## Ellie Q8
 
@@ -88,7 +78,7 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
   `athlete-blood-draws/index.html:163`
   > 2We draw at your doorA certified phlebotomist arrives before you eat. The draw takes a few minutes and you're back to your morning.
 - **early fasted starts and pediatric Saturday slots**  
-  `index.html:1102`
+  `index.html:1101`
   > For a fasting draw, book our first slot at 8am, or call about an earlier start. For school-age kids, Saturday mornings (8 to 11am) are the e
 - **Saturday and after-school availability**  
   `pediatric-blood-draws/index.html:131`
@@ -103,7 +93,7 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
 ## Ellie Q10
 
 - **clinics email address and one-business-day reply**  
-  `pricing/index.html:181`
+  `pricing/index.html:180`
   > Practices, concierge medicine, home-health agencies, and assisted-living communities: we run standing orders and scheduled rounds, and we ca
 
 ## Ellie Q11
@@ -117,13 +107,13 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
   `pricing/index.html:119`
   > One flat price per draw. It covers the visit anywhere in our service area, the draw, labeling, and delivery to your lab or the carrier. No t
 - **no travel fee inside the service area**  
-  `pricing/index.html:195`
+  `pricing/index.html:194`
   > No travel fee anywhere in our service area: Sonoma, Marin, Napa, Solano, Sacramento, and the greater Bay Area. Outside that area, call us an
 
 ## Ellie Q13
 
 - **payment timing and method**  
-  `pricing/index.html:200`
+  `pricing/index.html:199`
   > You pay on our scheduling page when you book, by card. You receive a receipt and, after the visit, a superbill.
 - **payment timing and method**  
   `terms/index.html:87`
@@ -162,11 +152,6 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
 
 - **replace the Maps search URL in sameAs with the real Google Business Profile URL**  
   `index.html:31`
-
-## Ellie Q4/Q5
-
-- **no-draw fee amount**  
-  `pediatric-blood-draws/index.html:116`
 
 ## Cutover steps (no facts needed)
 
