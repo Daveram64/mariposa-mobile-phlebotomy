@@ -24,6 +24,8 @@
 # New-site paths without a trailing slash, plus a few safe fallbacks
 /athlete-blood-draws           /athlete-blood-draws/        301
 /pediatric-blood-draws         /pediatric-blood-draws/      301
+/calm-blood-draws              /calm-blood-draws/           301
+/calm-draws                    /calm-blood-draws/           301
 /faq                           /#faq                        301
 /reviews                       /#reviews                    301
 /contact                       /#footer                     301

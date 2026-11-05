@@ -2,7 +2,7 @@
 const { chromium } = require('playwright');
 const BASE = 'http://127.0.0.1:8130'; process.chdir(require('os').tmpdir());
 const EXE = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome';
-const pages = ['/', '/pricing/', '/therapeutic-phlebotomy/', '/galleri-test-blood-draw/', '/athlete-blood-draws/', '/pediatric-blood-draws/', '/privacy/', '/terms/'];
+const pages = ['/', '/pricing/', '/therapeutic-phlebotomy/', '/galleri-test-blood-draw/', '/athlete-blood-draws/', '/pediatric-blood-draws/', '/calm-blood-draws/', '/privacy/', '/terms/'];
 const vps = { folded: { width: 466, height: 678 }, unfolded: { width: 626, height: 890 } };
 let fails = 0;
 function rec(ok, id, detail) { if (!ok) fails++; console.log((ok ? 'PASS ' : 'FAIL ') + id + '  ' + detail); }

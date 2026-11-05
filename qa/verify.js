@@ -25,7 +25,7 @@ function contrast(a, b) { const l1 = lum(a), l2 = lum(b); return (Math.max(l1, l
 
   // ---- static checks ----
   const files = ['index.html', 'llms.txt', 'README.md', 'robots.txt', 'sitemap.xml', '_redirects', 'vercel.json', 'assets/site.css',
-    'pricing/index.html', 'therapeutic-phlebotomy/index.html', 'galleri-test-blood-draw/index.html', 'athlete-blood-draws/index.html', 'pediatric-blood-draws/index.html', 'privacy/index.html', 'terms/index.html'];
+    'pricing/index.html', 'therapeutic-phlebotomy/index.html', 'galleri-test-blood-draw/index.html', 'athlete-blood-draws/index.html', 'pediatric-blood-draws/index.html', 'calm-blood-draws/index.html', 'privacy/index.html', 'terms/index.html'];
   const missing = files.filter(f => !fs.existsSync(path.join(ROOT, f)));
   rec('files-exist', missing.length === 0, missing.length ? 'missing: ' + missing.join(', ') : files.length + ' files present');
   const emd = files.filter(f => fs.existsSync(path.join(ROOT, f)) && fs.readFileSync(path.join(ROOT, f), 'utf8').includes('\u2014'));
@@ -144,7 +144,7 @@ function contrast(a, b) { const l1 = lum(a), l2 = lum(b); return (Math.max(l1, l
   rec('item27-pause', pauseOk, 'closing video pause button present');
 
   // Subpages: console errors, 200s, overflow, tel visible, FAB hides on footer
-  for (const slug of ['pricing', 'therapeutic-phlebotomy', 'galleri-test-blood-draw', 'athlete-blood-draws', 'pediatric-blood-draws', 'privacy', 'terms']) {
+  for (const slug of ['pricing', 'therapeutic-phlebotomy', 'galleri-test-blood-draw', 'athlete-blood-draws', 'pediatric-blood-draws', 'calm-blood-draws', 'privacy', 'terms']) {
     for (const vp of [{ width: 1280, height: 800 }, { width: 390, height: 844 }]) {
       const c = await browser.newContext({ viewport: vp });
       const p = await c.newPage();
