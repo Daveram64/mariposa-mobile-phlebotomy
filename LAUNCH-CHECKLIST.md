@@ -46,9 +46,6 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
 
 ## Ellie Q4
 
-- **needle type and numbing cream practice (this line says numbing spray)**  
-  `calm-blood-draws/index.html:244`
-  > 3You stay in charge.We coach you on how to support your child, and we bring a Buzzy and numbing spray to make it gentler.
 - **needle type and numbing cream practice**  
   `pediatric-blood-draws/index.html:114`
   > You stay, and you hold. A parent is part of every draw. We explain each step in plain words, or skip the narration entirely, whichever your 
@@ -156,38 +153,11 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
   `pricing/index.html:133`
   > Standard home draw$200
 
-## Dave Q22
-
-- **calm draws carry no surcharge over the standard price list**  
-  `calm-blood-draws/index.html:304`
-  > No. Calm draws use the same price list as every visit: $200 for a home draw, $300 for a pediatric draw, and +$25 for autism-informed care. S
-
-## Ellie Q22
-
-- **Ellie is OK sharing publicly that she is a mom of autistic children (here and in the quote below)**  
-  `calm-blood-draws/index.html:209`
-  > Autism-friendly draws
-
-## Ellie Q23
-
-- **kids' draws are done by two phlebotomists trained for children, on Saturday mornings**  
-  `calm-blood-draws/index.html:242`
-  > 2Two pediatric specialists.Children's draws are done by two phlebotomists trained for little ones, on quiet Saturday mornings.
-
 ## Ellie Q24
 
 - **help with a comfort hold or positioning when the parent asks (the site says no holding down, ever)**  
-  `calm-blood-draws/index.html:246`
+  `calm-blood-draws/index.html:242`
   > 4We follow your flow.Every child and family is different. If you want help with a comfort hold or positioning, we follow your direction and 
-
-## Ellie Q25
-
-- **typical visit length of 15 to 20 minutes**  
-  `calm-blood-draws/index.html:190`
-  > 15 to 20 minfor most visits, in and out at home
-- **typical visit length of 15 to 20 minutes**  
-  `calm-blood-draws/index.html:299`
-  > Most visits take 15 to 20 minutes, and nothing starts until you're ready. We handle the tubes, the paperwork, and the drop-off at your lab.
 
 ## Cutover steps (no facts needed)
 
