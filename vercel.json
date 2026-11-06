@@ -168,6 +168,16 @@
       "permanent": true
     },
     {
+      "source": "/calm-blood-draws",
+      "destination": "/calm-blood-draws/",
+      "permanent": true
+    },
+    {
+      "source": "/calm-draws",
+      "destination": "/calm-blood-draws/",
+      "permanent": true
+    },
+    {
       "source": "/faq",
       "destination": "/#faq",
       "permanent": true

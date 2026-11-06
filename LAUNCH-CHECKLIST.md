@@ -149,9 +149,15 @@ Numbers tagged DRAFT were written so the page reads complete; they are proposals
 
 ## Dave Q21
 
-- **the live Squarespace price list also has "Fertility / surrogate draw $150" and "Care facility and assisted living visits $175". Add them here (and to llms.txt and the homepage table) or drop them deliberately before cutover.**  
+- **the live Squarespace price list also has "Fertility / surrogate draw $150" and "Care facility and assisted living visits $200". Add them here (and to llms.txt and the homepage table) or drop them deliberately before cutover.**  
   `pricing/index.html:133`
   > Standard home draw$200
+
+## Ellie Q24
+
+- **help with a comfort hold or positioning when the parent asks (the site says no holding down, ever)**  
+  `calm-blood-draws/index.html:242`
+  > 4We follow your flow.Every child and family is different. If you want help with a comfort hold or positioning, we follow your direction and 
 
 ## Cutover steps (no facts needed)
 

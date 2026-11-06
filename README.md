@@ -14,6 +14,7 @@ Static marketing site for Mariposa Mobile Phlebotomy (certified in-home blood dr
 - `/galleri-test-blood-draw/`: the Galleri multi-cancer early detection test draw, and how other mail-in kits are handled.
 - `/athlete-blood-draws/`: the three athlete performance packages (Baseline, Performance, Complete).
 - `/pediatric-blood-draws/`: pediatric and autism-informed, sensory-aware draws.
+- `/calm-blood-draws/`: calm draws for needle anxiety, fainting, and hard veins, plus autism-friendly visits for kids and adults.
 - `/privacy/`: the privacy policy, plus the HIPAA notice of privacy practices at `/privacy/#hipaa`.
 - `/terms/`: terms of service and the cancellation policy, also linked at `/terms/#cancellation`.
 
